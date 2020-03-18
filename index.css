@@ -5,12 +5,13 @@
 
 body {
     background-image: url(shirt.jpeg);
-    background-position: center;
+    background-position: 65% 30%;
 }
 
 .tag {
-    position: relative;
-    margin: 0 auto;
+    position: absolute;
+    right: 50px;
+    top: 300px;
     width: 400px;
     height: 280px;
     text-align: center;
