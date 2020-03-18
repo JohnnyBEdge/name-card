@@ -16,5 +16,8 @@ Make sure to create re-usable CSS
 Stretch your Thoughts: Answer the following questions to help stretch your thoughts: 
 
 Why are ID selectors a bad idea? 
-What selectors should you prefer when working with CSS?
 
+IDs can get back if the user is overzealous with them and using them when classes or original tag names would be better suited. For readability, if IDs aren't well named, they can make debugging difficult, as will trying to hunt them down.
+
+What selectors should you prefer when working with CSS?
+I prefer using selectors that on specify when needed. Addressing the whole rather than specific lines. Doing so will create less lines of code and save memory.
