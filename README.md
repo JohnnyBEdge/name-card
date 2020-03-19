@@ -1,23 +1,22 @@
 Overview 
-For this exercise, we'll be using CSS and selectors to maintain CSS.  We'll make use of global styles, selectors, and the nature of cascading styles.
+Using your completed 'CSS: Understanding Selectors' exercise you will write HTML and JavaScript that update the name within the card itself. You'll need to create a way for a user to type in a new name and script out an update feature to handle the change of the displayed name inside your name card. 
 
-For this exercise, we'll be building a Hello my name is… badge Learning Objectives 
-Use the appropriate selectors for building maintainable CSS 
-Use elemental selectors properly 
-Use classification (class) selectors 
-Understand the rules of CSS
+Learning Objectives 
+Link JS to HTML 
+Use Form Events 
 Requirements 
-Use codepen.io (or similar tool) to layout a Hello my name is ….  badge 
-Use fonts for text 
-Use elements for all layout (no images allowed) 
-Make sure to round out the corners 
-Attempt to create a pixel-perfect rendition of the badge (make it look like the one to the right) 
-Make sure to create re-usable CSS  
+The following objectives serve as a high-level roadmap for this assignment.
+
+Create an HTML form that accepts user input for a new name 
+Connect a JavaScript file to your HTML 
+Connect the HTML Form to a JavaScript function that updates the Displayed name 
+HINT: document.getElementById("<insertIDHere>") comes in handy with this 
 Stretch your Thoughts: Answer the following questions to help stretch your thoughts: 
 
-Why are ID selectors a bad idea? 
+Which web event did you hook into to update the display name? 
+Where in your HTML did you link to your JavaScript file? Are there better places? What's the best place? 
+Why is it best practice to store your CSS/JS in external files rather than in your HTML file? 
+Bonus: In addition to the form to submit a new name, create a button that will generate a pop up in JavaScript with the message "Hello, my name is InputFieldTextHere". 
 
-IDs can get back if the user is overzealous with them and using them when classes or original tag names would be better suited. For readability, if IDs aren't well named, they can make debugging difficult, as will trying to hunt them down.
-
-What selectors should you prefer when working with CSS?
-I prefer using selectors that on specify when needed. Addressing the whole rather than specific lines. Doing so will create less lines of code and save memory.
+Deliverables:
+Provide a link to your GitHub page. Answer the questions in a readme.txt file. 
