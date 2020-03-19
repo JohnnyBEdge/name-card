@@ -14,8 +14,14 @@ HINT: document.getElementById("<insertIDHere>") comes in handy with this
 Stretch your Thoughts: Answer the following questions to help stretch your thoughts: 
 
 Which web event did you hook into to update the display name? 
+I hooked an eventlistener on the submit button to the input field to copy the value into the name tag.
+
 Where in your HTML did you link to your JavaScript file? Are there better places? What's the best place? 
+I added the link to my JS at the end of my body tag, but still within, using the script tag. This is the best place for it as it allows for the content to be loaded first, before trying to implement any changes.
+
 Why is it best practice to store your CSS/JS in external files rather than in your HTML file? 
+It is best practice to separate these for readability and seperation of concerns. 
+
 Bonus: In addition to the form to submit a new name, create a button that will generate a pop up in JavaScript with the message "Hello, my name is InputFieldTextHere". 
 
 Deliverables:
